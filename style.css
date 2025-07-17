@@ -56,6 +56,28 @@
     transform: translateY(0);
   }
   
+  .description {
+    max-width: 800px;
+    margin: 3rem auto 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  .description p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.1rem;
+    color: #888888;
+    line-height: 1.6;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+  }
+  
+  .description:hover p {
+    color: #aaaaaa;
+    opacity: 1;
+  }
+  
   .contact-section {
     margin: 3rem 0 2rem 0;
   }
@@ -148,6 +170,16 @@
   
     .subtext {
       font-size: 1rem;
+    }
+    
+    .description {
+      padding: 0 1.5rem;
+      margin: 2rem auto 1.5rem auto;
+    }
+    
+    .description p {
+      font-size: 1rem;
+      line-height: 1.5;
     }
     
     .whatsapp-link {
